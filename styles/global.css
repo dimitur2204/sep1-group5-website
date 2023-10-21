@@ -2,6 +2,10 @@
     --primary-color: #DC7B58;   
 }
 
+html{
+    overflow-x: hidden;
+}
+
 /* Styles for the navigation */
 .logo-text{
     font-size: 2.5rem;
