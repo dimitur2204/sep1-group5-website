@@ -30,6 +30,11 @@ html{
     border-radius: 25px;
 }
 
+.nav-item.active::after{
+    background-color: var(--primary-color);
+    width: 80%;
+}
+
 .nav-item:hover::after{
     width: 80%;
     background: var(--primary-color);
