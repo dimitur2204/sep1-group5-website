@@ -12,8 +12,7 @@ html{
     font-weight: 500     ;
     /* Add font border */
     color: #fff;
-    -webkit-text-stroke-width: 2px; 
-    -webkit-text-stroke-color: var(--primary-color); 
+     text-shadow: -1px -1px 0 var(--primary-color), 1px -1px 0 var(--primary-color), -1px 1px 0 var(--primary-color), 1px 1px 0 var(--primary-color);
 }
 
 .ring-container {
